@@ -1,4 +1,4 @@
-# transformer-battle
+# Transformers Battle Project
 
 
 ## Build Project
