@@ -8,7 +8,7 @@ The first step is build project to create .jar
 Open the terminal and follow the steps:
 
 ```bash
-$ cd transformers-battle-api
+$ cd transformers-battle
 $ mvn clean package
 ```
 
