@@ -104,11 +104,11 @@ public class TransformersControllerTest {
 
     @Test
     public void should_return_2xxResponseStatus_when_deleteTransformer() throws Exception {
-        String requestJson = ow
-                .writeValueAsString(TransformerDetailsDTO.builder().name(NAME).team(TransformerType.AUTOBOTS.type).build());
 
-        this.mockMvc.perform(delete(PATH).contentType(APPLICATION_JSON_UTF8).content(requestJson)).andDo(print())
+        this.mockMvc.perform(delete(PATH + "/1").contentType(APPLICATION_JSON_UTF8)).andDo(print())
                 .andExpect(status().is2xxSuccessful());
+
+        verify(transformersService, times(1)).deleteTransformer((1L));
 
     }
 

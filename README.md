@@ -31,11 +31,12 @@ Docker is running on 8080 port.
 I was a little unclear about the special rule which described about the battle winner incase of Optimus Prime/Predaking fighting.
 Hence,I assumed that the team with any of the above will win except if both are present or are duplicated.
 
+In case of no battle i have considered the case to be tie as no one has won a battle.
+
 ## Usage
 
 
 Available while the docker is running
 
 [![View in Swagger](https://raw.githubusercontent.com/jessemillar/view-in-swagger-button/03073fe128d35adfcad35b03b853aa76cfdd9002/button.svg)](http://localhost:8080/transformers-battle-api/swagger-ui/index.html?configUrl=/transformers-battle-api/api-docs/swagger-config#/)
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4fa3115297cde4d8f249)
-
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/38159c0dbf18f9b31247)
