@@ -20,7 +20,7 @@ The Application is running on 8080 port.
 ## Run on Docker container
 
 ```bash
-$ cd project
+$ cd transformers-battle
 $ docker build -t transformers-battle-api-1.0.0 .
 $ docker run -d -p 8080:8080 -t transformers-battle-api-1.0.0
 ```
